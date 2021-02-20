@@ -32,7 +32,7 @@ const Contact= () => {
                     </div>
 
                     <div class="divinput">   
-                        <textarea type="text" placeholder="Digite a Mensagem!" rows="6" cols="50"/>
+                        <textarea type="text" placeholder="Digite a Mensagem!" rows="3" />
                         <FiEdit class="icon" size={20}/>
 
                        

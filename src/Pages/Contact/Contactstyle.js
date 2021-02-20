@@ -39,6 +39,7 @@ export const Content = styled.div`
         display: flex;
         flex-direction: column;
         
+        
         h1 {
             margin-bottom: 20px;
         }
@@ -81,29 +82,29 @@ export const Content = styled.div`
         }
 
         .icon{
-            padding: .4rem .6rem;
+            padding: 5px ;
             display: block;
             position: absolute;
-            top: 10px;
+            top: 15px;
             color: #e4f0fb;
         }
 
 
         button {
-            background: #0a0a0a;
+            background: #0c0c0c;
             height: 56px;
             border-radius: 10px;
             border: 0;
             padding: 0 16px;
-            color: #fff;
+            color: #ccc;
             font-weight: 500;
             width: 100%;
             margin-top: 16px;
-            transition: background-color 0.6s;
+            transition: background-color 0.9s;
 
             &:hover {
-                background: #989898;
-                color: #000;
+                background: #000;
+                color: #fff;
             }
         }
 
@@ -114,7 +115,7 @@ export const Content = styled.div`
         }
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 768px){
         div{
             max-width: 100%
             max-height: auto;
@@ -125,12 +126,11 @@ export const Content = styled.div`
             display: flex;
             flex-direction: column;
             margin: 0 0;
-            max-width: 90%;
-            min-width: 90%;
+            max-width:85%;
+            min-width:85%;
             text-align: center;
-            width: 90%;
+            width: 85%;
             height:auto; 
-            background-color: red;
             padding: 0 0;
             align-items:center;
             
@@ -140,12 +140,13 @@ export const Content = styled.div`
             textarea{
                 background: #161616;
                 border-radius: 5px;
-                border: 1px solid #161616;
-                padding:0 ;
-                padding-left: 0;
+                border: 1px solid #161616; ;
+                padding-left: 10%;
                 color: #F4EDE8;
-                margin: 0 0;
-                width: 50%;
+                margin: 2% 0;
+                max-height:40%;
+                
+                
             }
 
             .divinput{
@@ -153,53 +154,55 @@ export const Content = styled.div`
                 flex-direction: column;
                 position: relative;
                 
+                
             }
     
             input {
                 background: #161616;
                 border-radius: 5px;
                 border: 1px solid #161616;
-                padding: 0;
-                padding-left: 0;
+                padding: 4%;
+                padding-left: 10%;
                 color: #F4EDE8;
-                margin: 0;
                 position: relative;
-                width: 50%;
+                margin-top: 2%;
+                
     
                 &::placeholder {
                     color: #666360;
                 }
     
                 & + input {
-                    margin-top: 0%;
+                    margin-top: 2%;
                 }
             }
     
             .icon{
-                padding: .0rem .0rem;
+                padding: 6% 2%;
                 display: block;
                 position: absolute;
                 top: 0%;
                 color: #e4f0fb;
-                align-items: ;                
+                              
             }
     
     
             button {
-                background: #0a0a0a;
-                height: 8%;
+                background: #0c0c0c;
                 border-radius: 5px;
                 border: 0;
-                padding: 0 0%;
-                color: #fff;
+                padding: 2% 2%;
+                color: #ccc;
                 font-weight: 500;
-                width: 50%;
+                width: 100%;
                 margin-top: 0;
-                transition: background-color 0.6s;
-    
+                transition: background-color 0.5s;
+                max-height: 10%;
+
+                
                 &:hover {
-                    background: #989898;
-                    color: #000;
+                    background: #000;
+                    color: #fff;
                 }
             }
         }

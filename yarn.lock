@@ -3866,6 +3866,11 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
+d3-selection@^1.2.0:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/d3-selection/-/d3-selection-1.4.2.tgz#dcaa49522c0dbf32d6c1858afc26b6094555bc5c"
+  integrity sha512-SJ0BqYihzOjDnnlfyeHT0e30k0K1+5sR3d5fNueCNeuhZTnGw4M4o8mqJchSwgKMXCNFo+e2VTChiSJ0vYtXkg==
+
 d@1, d@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.1.tgz#8698095372d58dbee346ffd0c7093f99f8f9eb5a"
@@ -8832,7 +8837,7 @@ prompts@2.4.0, prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -9156,6 +9161,15 @@ react-scripts@4.0.2:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-textures@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/react-textures/-/react-textures-0.0.4.tgz#4183ffbc24ec19b4a418ea0383602a06bc15f51d"
+  integrity sha512-nylNSVakI9AO+AddYOJYNei2xSQk2qrCI5kdr6spP+3HsyQlG9lPtkEciCa8M+l+UnPorh76KfAEl5MUcC6Bhg==
+  dependencies:
+    d3-selection "^1.2.0"
+    prop-types "^15"
+    textures "^1.2.0"
 
 react@^17.0.1:
   version "17.0.1"
@@ -10543,6 +10557,11 @@ text-table@0.2.0, text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+textures@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/textures/-/textures-1.2.2.tgz#f9382eb0b51771218f4281480473c6690d38e019"
+  integrity sha512-63am9YrmonsT8xEaO4/jZMD3DH5g02MsB7JArzmPuJ2HAFq5L9cq5foquRf5QAqPIn/w2PJAFX/iRZDbvk9JBw==
 
 throat@^5.0.0:
   version "5.0.0"
