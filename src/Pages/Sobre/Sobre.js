@@ -13,27 +13,30 @@ const Sobre = () => {
                             <div >
                                 <h2>Apresentação</h2>
                                 <span>
-                                    Sou Dalton Miranda Gomes corretor de imóveis, 
-                                    atuando no mercado imobiliario de São Paulo,
-                                    tenho como missão ajudar meus clientes fornecendo diversos serviços que possuo na plataforma.
+                                    Sou Dalton Miranda Gomes corretor de imóveis 
+                                    atuando no mercado imobiliario de São Paulo desde 2020.<p/>
+                                    Tenho como missão ajudar meus clientes, fornecendo diversos 
+                                    <Link className="link" to="/services" > serviços</Link> que possuo na plataforma.
                                 </span>
-                                <Link to="/services" >Serviços</Link>
+                                
                             </div>
                             
                             <div>
                                 <h2>Motivações</h2>
                                 <span>
                                     Foi em busca de transformação e inovação,
-                                    que criei minha plataforma on-line imobiliaria, 
-                                    onde parceiros e clientes possam entrar em contato comigo 
-                                    e desfrutar dos nossos <Link to="/product" >produtos</Link> e serviços de qualquer lugar, 
-                                    basta estar conectado a internet com seu smartphone.
+                                    que criei minha plataforma imobiliária on-line.<p/> 
+                                    Aqui parceiros e clientes podem entrar em  
+                                    <Link className="link" to="/contato" > contato</Link> comigo 
+                                    e desfrutar dos  
+                                    <Link className="link" to="/product" > produtos</Link> e 
+                                    <Link className="link" to="/services" > serviços</Link> disponíveis.
                                 </span>
-                                <Link to="/contato" >Contato</Link>
+                                
                             </div>
 
                              <div>
-                                <img className="img1" src={`${img1}`}></img>
+                                <img className="img1" src={`${img1}`} alt="/"></img>
                             </div>
                     </form>
             </div>

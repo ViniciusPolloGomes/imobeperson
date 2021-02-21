@@ -10,7 +10,6 @@ const Navbar= () => {
                             <div class="dvs1">               
                                 <Link className="textmarca" to="/home">IMOBEPERSON</Link>
                             </div>
-
                             <div class="dvs2">
                                 <div class="menubar">
                                     <ul class="list">
@@ -29,6 +28,4 @@ const Navbar= () => {
     );
 }
 export default Navbar;
-{ /*<Link to="/" >Esqueci minha senha</Link>
-    <Link to="/signup" >Criar conta</Link>
-    <Link to="/contact" >Contato</Link>*/}
+

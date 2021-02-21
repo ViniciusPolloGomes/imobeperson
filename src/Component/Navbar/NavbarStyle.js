@@ -8,7 +8,7 @@ export const Container = styled.div`
         height: 100vh;
         width:100%;
         margin: 0;
-
+        
 .Mynavbar{
     display: flex;
     flex-direction: column;
@@ -16,12 +16,12 @@ export const Container = styled.div`
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color:#222222;
+    background-color:#333333;
     margin: 0px;
     justify-content:left;
     width: 100%;
     height: 9%;
-    position: fixed;
+    
     box-shadow: -8px -79px 51px -81px rgba(0,0,0,1) inset;
     -webkit-box-shadow: -8px -79px 51px -81px rgba(0,0,0,1) inset;
     -moz-box-shadow: -8px -79px 51px -81px rgba(0,0,0,1) inset;

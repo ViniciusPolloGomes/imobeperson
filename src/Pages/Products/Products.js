@@ -4,7 +4,7 @@ const Product= () => {
 
     return(
         <>
-        
+            <h1>Produtos</h1>
         </>
     );
 }
