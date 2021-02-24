@@ -1,6 +1,8 @@
 import React from 'react';
 import {Container} from './NavbarStyle';
 import {Link} from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
+
 const Navbar= () => {
 
     return(
@@ -8,15 +10,16 @@ const Navbar= () => {
                 <div class="Mynavbar">
                     <div class="nv1">
                             <div class="dvs1">               
-                                <Link className="textmarca" to="/home">IMOBEPERSON</Link>
+                                <HashLink className="textmarca" to="/home">IMOBEPERSON</HashLink>
                             </div>
                             <div class="dvs2">
                                 <div class="menubar">
                                     <ul class="list">
-                                        <li><Link className="amenu" to="/home">Início</Link></li>
-                                        <li><Link className="amenu" to="/sobre">Sobre</Link></li>
-                                        <li><Link className="amenu" to="/produtos">Produtos</Link></li>
-                                        <li><Link className="amenu" to="/contact">Contato</Link></li>
+                                        <li><HashLink className="amenu" to="/home">Início</HashLink></li>
+                                        <li><HashLink className="amenu" to="/sobre">Sobre</HashLink></li>
+                                        <li><HashLink className="amenu" to="/home#servicos">Seviços</HashLink></li>
+                                        <li><HashLink className="amenu" to="/produtos">Produtos</HashLink></li>
+                                        <li><HashLink className="amenu" to="/contact">Contato</HashLink></li>
                                     </ul>
                                 </div>
                             </div>
